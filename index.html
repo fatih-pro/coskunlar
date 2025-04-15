@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yapım Aşamasında - Coşkunlar Otogaz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8f9fa;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 30px;
+        }
+
+        .construction-icon {
+            font-size: 4rem;
+            color: var(--secondary-color);
+            margin: 30px 0;
+            animation: pulse 2s infinite;
+        }
+
+        .contact-info {
+            margin: 30px 0;
+            line-height: 1.8;
+        }
+
+        .contact-info i {
+            width: 25px;
+            color: var(--secondary-color);
+        }
+
+        .social-links {
+            margin-top: 30px;
+        }
+
+        .social-links a {
+            font-size: 24px;
+            color: var(--primary-color);
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: var(--secondary-color);
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            COŞKUNLAR OTOGAZ AKARYAKIT NAKLİYE AŞ
+        </div>
+
+        <div class="construction-icon">
+            <i class="fas fa-tools"></i>
+        </div>
+
+        <h1>Sitemiz Yakında Hizmetinizde!</h1>
+        <p>Yeni web sitemiz için çalışmalar devam ediyor.<br>
+        Aşağıdaki bilgilerden bize ulaşabilirsiniz.</p>
+
+        <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt"></i> 
+            Cumhuriyet Mahallesi Sanayi Caddesi<br>
+            No:64 Çubuk/ANKARA</p>
+
+            <p><i class="fas fa-phone"></i> 0312 838 68 25</p>
+            <p><i class="fas fa-envelope"></i> coskunlar.otogaz@hotmail.com</p>
+        </div>
+
+        <div class="social-links">
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+        <div class="copyright" style="margin-top: 30px; color: #666;"></div>
+            © 2024 COŞKUNLAR OTOGAZ - Tüm hakları saklıdır
+        </div>
+    </div>
+</body>
+</html>
